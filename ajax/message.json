@@ -1,0 +1,36 @@
+﻿{
+	"about_info":[
+		"从hello world到独立建立自己的网站、博客，继续学习HTML5,css3,js,jquery,bootstrap...",
+		"自学过程中难免遇到难题，独立解决难题，成就感驱使我继续前行",
+		"向来喜欢美好的事物，能将优雅的网页展示给用户将是多么美妙的体验"
+	],
+	"skill_info":"路漫漫其修远，吾将动心忍性，上下求索",
+	"html":[
+		"深刻理解Web标准",
+		"熟练运用html标签",
+		"掌握html5新特性"
+	],
+	"css":[
+		"熟练运用css及css3新属性",
+		"注重浏览器兼容性",
+		"了解bootstrap框架及源码的实现",
+		"了解css预编译器Less及Sass"
+	],
+	"javaScript":[
+		"注重JavaScript性能优化",
+		"正在不断学习原生JavaScript，了解js闭包等",
+		"熟悉git版本控制工具"
+	],
+	"jQuery":[
+		"熟悉JS开发框架JQuery能实现各种交互效果",
+		"了解Ajax以及Json等数据交换格式",
+		"熟练运用Photoshop、Webstrom、Sublime text、Atom、Chrome等常用网页设计制作软件"
+	],
+	"contact_info":[
+		"人生最幸福的事",
+		"莫过于从事自己最热爱的工作",
+		"跟一群志同道合的人在一起",
+		"行路有良友，便是捷径",
+		"带上我吧，一起去看更广阔的世界"
+	]
+}
