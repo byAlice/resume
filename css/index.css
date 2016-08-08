@@ -81,10 +81,9 @@ header img {
 header img:hover {
 	box-shadow: 0 0 15px #1FAEFF;
 }
-/*
 
 nav {
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-right: 60px;
 }
 nav {
@@ -93,9 +92,11 @@ nav {
 nav li {
 	float: left;
 	margin: 0 20px;
+	list-style: none;
 }
 nav li a {
-	padding: 25px 0;
+	font-size: 14px;
+	padding: 20px 0;
 	position: relative;	
 	color: #666;
 }
@@ -118,7 +119,7 @@ nav li a:hover:after {
 	left: 0;
 	right: 0;
 	opacity: 1;
-}*/
+}
 @media screen and (max-width:1366px){
 #header {
 	height: 60px;
@@ -163,6 +164,9 @@ aside b {
 	padding-right: 5px;
 	text-align: right;
 }
+aside a:hover b{
+	display: block;
+}
 /* common style of page */
 #home,
 #about,
@@ -191,9 +195,10 @@ aside b {
 #home{
 	display: none;
 }
+/*背景变化*/
 @-webkit-keyframes zoom {
 	0%{
-		background-size: 130% 130%;	
+		background-size: 150% 100%;
 	}
 	100%{
 		background-size: 100% 100%;
@@ -201,7 +206,7 @@ aside b {
 }
 @keyframes zoom {
 	0%{
-		background-size: 130% 130%;	
+		background-size: 150% 100%;
 	}
 	100%{
 		background-size: 100% 100%;
@@ -249,7 +254,8 @@ img#home_photo2 {
 #home_info2,
 #home_info3,
 #home_info4,
-#home_info5 {
+#home_info5,
+#home_info6 {
 	margin: 15px auto;
 	display: none;
 	width: 800px;
@@ -274,7 +280,8 @@ img#home_photo2 {
 	height: 150px;
 	padding: 20px 0;
 	border-radius: 30px;
-	background: #a0a0b4;	
+	background: #a0a0b4;
+	opacity: 0;
 }
 .about_list {
 	float: left;
@@ -760,7 +767,7 @@ img#home_photo2 {
 }
 #contact_info {
 	margin: 10px auto;
-	padding: 40px 0 20px;
+	padding: 0 0 20px;
 	width: 1000px;
 	text-align: center;
 	position: relative;
@@ -772,10 +779,18 @@ img#home_photo2 {
 #contact_info p:nth-child(n+4){
 	font-weight:bold;
 }
+#contact_info p:nth-child(n+6){
+	color: #f00;
+}
+#contact_info p:nth-child(n+8){
+	font-weight:bold;
+	color: #000;
+}
 .contact_scale {
 	visibility: hidden;
-	line-height: 30px;
+	line-height: 20px;
 }
+
 /*淡入*/
 @-webkit-keyframes fade_in {
 	0%{
@@ -860,10 +875,10 @@ img#home_photo2 {
 	}
 }
 .b_to_t {
-	-webkit-animation: b_to_t 1s;
-	-moz-animation: b_to_t 1s;
-	-o-animation: b_to_t 1s;
-	animation: b_to_t 1s;
+	-webkit-animation: b_to_t 2s;
+	-moz-animation: b_to_t 2s;
+	-o-animation: b_to_t 2s;
+	animation: b_to_t 2s;
 	visibility: visible;
 }
 @media screen and (max-width:1700px){

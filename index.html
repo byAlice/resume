@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>byAlice简历</title>
@@ -8,50 +7,27 @@
 	<meta name="description" content="" />
 	<meta name="keywords"  content="byAlice 前端 简历" />
 	<meta name="Resource-type" content="Document" />
-
-
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-
 	<link rel="stylesheet" type="text/css" href="css/index.css" />
-
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-			  sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-			  anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-			  menu: '#menu',
-			  continuousVertical: true
-			});
-		});
-	</script>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/index.js"></script>
 
 </head>
 <body>
-<!--<ul id="menu">
-	<li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
-	<li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
-	<li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
-	<li data-menuanchor="3rdPage"><a href="#4rdPage">Third slide</a></li>
-	<li data-menuanchor="3rdPage"><a href="#5rdPage">Third slide</a></li>
-</ul>-->
 <!-- header navigation -->
 <header>
 	<div id="logo">
-		<div id="header_img"><img src="img/logo.jpg" alt="" /></div>
-		<!--<div id="header_p">
-			<p id="header_p1">F2E</p>
-			<p id="header_p2">个人简历</p>
-		</div>-->
+		<div id="header_img"><img src="img/logo.jpg" alt="" title="Hello,wish you have a good mood!" /></div>
 	</div>
-	<!--	<nav>
-            <ul>
-                <li><a href="">首页</a></li>
-                <li><a href="">随笔</a></li>
-                <li><a href="">积淀</a></li>
-                <li><a href="">关于</a></li>
-            </ul>
-        </nav>-->
+	<nav>
+        <ul>
+			<li><a href="">首页</a></li>
+			<li><a href="http://byalice.github.io/" target="_blank">博客</a></li>
+			<li><a href="https://github.com/byAlice" target="_blank">github</a></li>
+        </ul>
+    </nav>
 </header>
 <!-- header navigation end -->
 <!-- aside navigation -->
@@ -71,7 +47,7 @@
 			<div id="home_content">
 				<div id="home_head">
 					<div id="home_head_content">
-						<img src="img/logo.jpg" id="home_photo1" alt="" />
+						<img src="img/logo.jpg" id="home_photo1" alt="" title="非常感激您可以有时间来阅读我的简历" />
 					</div>
 				</div>
 				<div id="home_info">
@@ -80,7 +56,8 @@
 						<p id="home_info2">我叫丁甲鹏</p>
 						<p id="home_info3">22岁</p>
 						<p id="home_info4">渴望成为一名优秀前端开发工程师</p>
-						<p id="home_info5">1533674340@qq.com</p>
+						<p id="home_info5">e-mail：1533674340@qq.com</p>
+						<p id="home_info6">TEL：13782953667</p>
 					</div>
 				</div>
 			</div>
@@ -109,7 +86,7 @@
 					</div>
 					<div class="about_list">
 						<div class="about_list_eg" id="about_en_sta">status</div>
-						<div class="about_list_cn" id="about_cn_sta">状态<p>找实习</p></div>
+						<div class="about_list_cn" id="about_cn_sta">状态<p>寻职</p></div>
 					</div>
 				</div>
 				<div id="about_info"></div>
@@ -134,13 +111,13 @@
 						<div class="skill_int" id="skill_int1"></div>
 					</div>
 					<div class="skill_list_content" id="skill_list2">
-						<div class="progress-ring" data-precent="70"></div>
+						<div class="progress-ring" data-precent="70" data-color="#efd1f7,#d632ff" data-duration="4"></div>
 						<div class="skill_name">CSS</div>
 						<div class="skill_flag"></div>
 						<div class="skill_int" id="skill_int2"></div>
 					</div>
 					<div class="skill_list_content" id="skill_list3">
-						<div class="progress-ring" data-precent="65" data-color="#b3cef6,#4b86db" data-duration="4"></div>
+						<div class="progress-ring" data-precent="65" data-color="#d3e2f7,#4b86db" data-duration="4"></div>
 						<div class="skill_name">JavaScript</div>
 						<div class="skill_flag"></div>
 						<div class="skill_int" id="skill_int3"></div>
@@ -247,29 +224,11 @@
 				<div id="contact_info" class="contact_scale">
 				</div>
 			</div>
-		<!--	<footer class="contact_scale">
-				<div class="contact_scale footer"><a href="http://blog.csdn.net/zhcscs" target="_blank">CSDN</a>|<a href="http://weibo.com/zky2013" target="_blank">微博</a>|<a href="https://www.zhihu.com/people/fezky" target="_blank">知乎</a>|<a href="https://segmentfault.com/u/keyu2016" target="_blank">豆瓣</a>|<a href="https://github.com/zhaoky" target="_blank">Github</a></div>
-				<div class="contact_scale footer">All Rights Reserved&nbsp;</div>
-				<div class="contact_scale footer"><a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备15021330号</a>&nbsp;Copyright &copy; 2015 - 2016</div>
-			</footer>-->
 		</div>
 	</div>
 	<!-- contact end -->
 </div>
 <!-- home page end -->
-
-
-
-
-
-
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.fullPage.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cssParser.js"></script>
-<script src="js/modalEffects.js"></script>
-<script src="js/index.js"></script>
 
 </body>
 </html>
