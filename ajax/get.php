@@ -1,4 +1,4 @@
-﻿{
+{
 	"about_info":[
 		"从hello world到独立建立自己的网站、博客，继续学习HTML5,css3,js,jquery,bootstrap...",
 		"自学过程中难免遇到难题，独立解决难题，成就感驱使我继续前行",
@@ -6,14 +6,15 @@
 	],
 	"skill_info":"路漫漫其修远，吾将动心忍性，上下求索",
 	"html":[
-		"熟悉W3C标准，理解表现与数据分离，web语义化",
-		"熟练运用html标签进行网页布局",
-		"了解html5新特性，继续学习中"
+		"深刻理解Web标准",
+		"熟练运用html标签",
+		"掌握html5新特性"
 	],
 	"css":[
 		"熟练运用css及css3新属性",
 		"注重浏览器兼容性",
-		"了解css预编译器Less及bootstrap框架"
+		"了解bootstrap框架及源码的实现",
+		"了解css预编译器Less及Sass"
 	],
 	"javaScript":[
 		"注重JavaScript性能优化",

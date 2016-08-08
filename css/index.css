@@ -453,7 +453,7 @@ img#home_photo2 {
 }
 .skill_list_content {
 	float: left;
-	margin: 0 5%;
+	margin: 0 6%;
 	position: relative;
 	height: 400px;
 	visibility: hidden;
@@ -490,7 +490,7 @@ img#home_photo2 {
 }
 .skill_int li {
 	font-size: 12px;
-	padding-left: 15px;
+	padding-left: 20px;
 }
 @-webkit-keyframes skill_scale {
 	0% {
