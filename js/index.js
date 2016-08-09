@@ -10,11 +10,9 @@ $(function(){
 			if(index==1){
 				$("#home").css({"display":"block"}).addClass("home_zoom");	//第一页主页面变为不透明，背景图变化
 				$("aside").css({"top":($(".active").height()-$("aside").height())/2});	//侧边栏定高
-				$("header").before("<div id='header' style='opacity:0'></div>");
-				$("#home_head").css({"margin-top":"80px"});		//头像margin-top改变
+				$("#home_head").css({"margin-top":"15%"});		//头像margin-top改变
 				$("aside a").eq(0).addClass("selected").siblings().removeClass("selected");
 				$("header").animate({opacity:"1"},1000,function(){
-					$("#header").css({"opacity":"0.3"});
 					$("#home_info1").fadeIn(500,function(){
 						$(this).next().animate({width:"800px"},500,function(){
 							$("#home_info2").fadeIn(200,function(){
@@ -31,8 +29,6 @@ $(function(){
 						});
 					});
 				});
-
-
 			}
 			if(index==2){
 				$("aside a").eq(1).addClass("selected").siblings().removeClass("selected");
@@ -44,9 +40,7 @@ $(function(){
 				$("#about_info").animate({width:"800px",marginTop:"0",marginBottom:"0"},700,'easeOutElastic',function(){
 					$("#about_info p").eq(0).animate({bottom:"0"},500,function(){
 						$("#about_info p").eq(1).animate({bottom:"0"},500,function(){
-							$("#about_info p").eq(2).animate({bottom:"0"},500,function(){
-								$("#about_info p").eq(3).animate({bottom:"0"},500);
-							});
+							$("#about_info p").eq(2).animate({bottom:"0"},500);
 						});
 					});
 				});
