@@ -29,6 +29,12 @@ $(function(){
 						});
 					});
 				});
+				// 头像切换
+				$("#home_photo2").hover(function(){
+					$(this).fadeTo(800,1);
+				},function(){
+					$(this).stop(true,false).fadeTo(800,0);
+				});
 			}
 			if(index==2){
 				$("aside a").eq(1).addClass("selected").siblings().removeClass("selected");
